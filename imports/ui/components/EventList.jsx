@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import DummyComponent from './DummyComponent.jsx';
+import Step from './Step.jsx';
 
 // App component - represents the whole app
-export default class App extends Component {
+export default class EventList extends Component {
   getSteps() {
     return [
       { _id: 1, text: 'These list items started as JSON data...' },
@@ -15,7 +15,7 @@ export default class App extends Component {
 
   renderSteps() {
     return this.getSteps().map((step) => (
-      <DummyComponent key={step._id} dummy={step} />
+      <Step key={step._id} step={step} />
     ));
   }
 

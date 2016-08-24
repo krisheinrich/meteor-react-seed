@@ -1,16 +1,16 @@
 import React, { Component, PropTypes } from 'react';
 
-// Dummy component - replace with actual component
-export default class DummyComponent extends Component {
+// Step component - replace with actual component
+export default class Step extends Component {
   render() {
     return (
-      <li>{this.props.dummy.text}</li>
+      <li>{this.props.step.text}</li>
     );
   }
 }
 
-DummyComponent.propTypes = {
+Step.propTypes = {
   // This component gets the dummy data to display through a React prop.
   // We can use propTypes to indicate it is required
-  dummy: PropTypes.object.isRequired,
+  step: PropTypes.object.isRequired,
 };
