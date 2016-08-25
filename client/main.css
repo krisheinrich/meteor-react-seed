@@ -1,1 +1,26 @@
 /* CSS declarations go here */
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+ul.square-list {
+  list-style-type: square;
+}
+
+/* Global */
+
+main {
+  min-height: 340px;
+}
+
+/* Features */
+
+#features ul>li span.feature-name {
+  color: #d45;
+  font-weight: bold;
+}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Step from './Step.jsx';
+import Step from '../components/step.jsx';
 
 // App component - represents the whole app
-export default class EventList extends Component {
+export class EventList extends Component {
   getSteps() {
     return [
       { _id: 1, text: 'These list items started as JSON data...' },
@@ -21,12 +21,14 @@ export default class EventList extends Component {
 
   render() {
     return (
-      <div className="container">
-
-        <ul>
-          {this.renderSteps()}
-        </ul>
-      </div>
+      <main>
+        <div className="container">
+          <h3>Here's how data moves in React:</h3>
+          <ul className="square-list">
+            {this.renderSteps()}
+          </ul>
+        </div>
+      </main>
     );
   }
 }
