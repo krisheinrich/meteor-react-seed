@@ -9,6 +9,7 @@ export class Features extends Component {
       { _id: 4, text: 'User Accounts', role: 'User registration/authentication system incorporating Google sign-in' },
       { _id: 5, text: 'ReactJS', role: 'Component templating and view rendering'  },
       { _id: 6, text: 'React Router', role: 'Client-side routing' },
+      { _id: 6, text: 'Sass/SCSS', role: 'CSS preprocessor providing variables, mixins, nested selector syntax, and other features' },
       { _id: 7, text: 'MaterializeCSS (Material Design)', role: 'Modern design standard for clean, responsive UI components' },
     ];
   }
