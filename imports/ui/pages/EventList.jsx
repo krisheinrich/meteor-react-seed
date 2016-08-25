@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Step from '../components/step.jsx';
+import Step from '../components/Step.jsx';
 
 // App component - represents the whole app
 export class EventList extends Component {

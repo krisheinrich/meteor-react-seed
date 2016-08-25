@@ -18,7 +18,16 @@ main {
   min-height: 340px;
 }
 
-/* Features */
+/* Index */
+
+#login-box {
+  width: 400px;
+  margin: 0 auto;
+  padding: 24px 60px;
+  background: #ddd;
+}
+
+/* Features Page */
 
 #features ul>li span.feature-name {
   color: #d45;

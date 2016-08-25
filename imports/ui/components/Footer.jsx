@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Footer = () => (
+export default Footer = () => (
   <footer className="page-footer">
     <div className="container">
       <div className="row">

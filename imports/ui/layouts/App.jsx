@@ -1,6 +1,7 @@
 import React from 'react';
-import { Navigation } from '../components/navigation.jsx';
-import { Footer } from '../components/footer.jsx';
+
+import Navigation from '../components/Navigation.jsx';
+import Footer from '../components/Footer.jsx';
 
 export const App = ( { children } ) => (
   <div>

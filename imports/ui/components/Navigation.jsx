@@ -1,7 +1,8 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
 
-export const Navigation = () => (
+
+export default Navigation = () => (
   <nav>
     <div className="nav-wrapper">
       <a href="#" className="brand-logo">Logo</a>

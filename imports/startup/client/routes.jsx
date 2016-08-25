@@ -2,12 +2,12 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-import { App } from '../../ui/layouts/app.jsx';
-import { Index } from '../../ui/components/index.jsx';
+import { App } from '../../ui/layouts/App.jsx';
+import { Index } from '../../ui/components/Index.jsx';
 
-import { EventList } from '../../ui/pages/eventList.jsx';
-import { Features } from '../../ui/pages/features.jsx';
-import { NotFound } from '../../ui/pages/not-found.jsx';
+import { EventList } from '../../ui/pages/EventList.jsx';
+import { Features } from '../../ui/pages/Features.jsx';
+import { NotFound } from '../../ui/pages/NotFound.jsx';
 
 Meteor.startup( () => {
   render(
