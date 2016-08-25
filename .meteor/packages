@@ -25,3 +25,4 @@ blaze-html-templates
 accounts-ui
 accounts-password
 useraccounts:materialize
+accounts-google

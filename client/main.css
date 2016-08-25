@@ -1,7 +1,8 @@
 /* CSS declarations go here */
 
 h1 {
-  font-size: 48px;
+  font-size: 42px;
+  text-align: center;
 }
 
 h3 {
@@ -15,16 +16,43 @@ ul.square-list {
 /* Global */
 
 main {
-  min-height: 340px;
+  min-height: 63vh;
 }
 
 /* Index */
 
-#login-box {
-  width: 400px;
+.center-content {
+  display: table;
+  width: 100%;
+}
+
+.center-content > .col.s12 {
+  display: block;
   margin: 0 auto;
-  padding: 24px 60px;
-  background: #ddd;
+  text-align:center;
+}
+
+p.description {
+  margin: 1.6em 0;
+  text-align: left;
+  font-size: 1.15em;
+}
+
+p.description code {
+  font-size: 0.9em;
+}
+
+#login-box {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: #ccc -1px 2px 4px, #ccc 1px -1px 4px;
+  z-index: 2;
+}
+
+.at-form {
+  background: #fff;
+  padding: 8px 20px;
 }
 
 /* Features Page */
